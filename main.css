@@ -1,0 +1,29 @@
+body{
+    background: brown;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    text-align: center;
+}
+
+#main-container{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#twitter-btn{
+    float: left;
+}
+
+#get-quote-btn{
+    float: right;
+}
