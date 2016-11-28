@@ -1,5 +1,5 @@
 body{
-    background: brown;
+    background: bisque;
 }
 
 h1,
@@ -11,19 +11,14 @@ h6{
     text-align: center;
 }
 
-#main-container{
-    width: 500px;
-    height: 250px;
+.main-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
     position: relative;
-    margin: auto;
     background-color: aquamarine;
     text-align: center;
 }
 
-#twitter-btn{
-    float: left;
-}
-
-#get-quote-btn{
-    float: right;
-}

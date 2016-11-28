@@ -14,18 +14,20 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="container-fluid">
         <h1>Random Quate Machine</h1>
-        <div id="main-container">
-            <h2>This is jus a test for commit</h2>
-            <h3>Here will be a quote from our cool API :)</h3>
-            <a id = "twitter-btn" class="btn btn-default" href="#" role="button">Twitter</a>
-            <a id = "get-quote-btn" class="btn btn-default" href="#" role="button">Get Quote</a>
+        <div class="row">
+            <div class="main-container">
+                <div id="quote-text"></div>
+                <div id="quote-author-text"></div>
+                <a id="twitter-btn" class="btn btn-default pull-left" href="#" role="button">Twitter</a>
+                <div class="clearfix"><a id="get-quote-btn" class="btn btn-default pull-right" href="#" role="button">Get Quote</a></div>   
+            </div>
         </div>
     </div>
 </body>
