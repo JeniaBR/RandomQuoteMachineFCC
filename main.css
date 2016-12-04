@@ -1,5 +1,5 @@
 body{
-    background: bisque;
+    background: white;
 }
 
 h1,
@@ -9,16 +9,52 @@ h4,
 h5,
 h6{
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.btn{
+    margin-bottom: 5px;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+
+.btn:focus{
+    color: white;
+}
+
+#quote-author-text{
+    text-align: right;
+    margin: 8px;
+    font-size: 1.2em;
+
+}
+
+#quote-text{
+    font-size: 1.5em;
+}
+
+#quote{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main-container {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     max-width: 500px;
     position: relative;
-    background-color: aquamarine;
+    border-radius: 5px;
+    background-color: white;
     text-align: center;
 }
 
